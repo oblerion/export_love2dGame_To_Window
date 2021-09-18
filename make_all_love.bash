@@ -1,7 +1,7 @@
 #! /bin/bash
 # love2d 32bit export script for linux 
 # make by desnot4000
-loveexe_path="/home/desnot/GD/love-11.3-win32/LOVE2D";
+loveexe_path="./LOVE2D";
 c=2
 for n in *.love ; do
 	love_name=${n:0:${#n}-5}
